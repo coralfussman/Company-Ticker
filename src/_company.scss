@@ -1,0 +1,55 @@
+@import '_variables';
+.comp-split-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 18%;
+  width: 100%;
+  p {
+    margin: 0;
+  }
+  margin-bottom: 5%;
+}
+.comp-left-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  height: 18%;
+  width: 100%;
+  p {
+    margin: 0;
+  }
+  padding-left: 6%;
+}
+.comp-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  padding: 1%;
+}
+.peers-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  p {
+    margin: 0;
+  }
+  margin-top: 15%;
+  margin: 2%;
+}
+
+#peer-title {
+  margin: 0;
+  //padding-left: 12%;
+  width: 100%;
+  align-self: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

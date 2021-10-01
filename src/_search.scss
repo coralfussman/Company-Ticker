@@ -1,0 +1,68 @@
+@import '_variables';
+
+.searchContainter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  background: white;
+  box-shadow: -6px -2px 30px rgba(255, 255, 255, 0.15),
+    -6px -2px 30px rgba(0, 0, 0, 0.15);
+}
+
+.searchBar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 35%;
+  color: grey;
+  text-align: center;
+  justify-content: center;
+}
+input {
+  background: rgb(230, 230, 230);
+}
+
+.stockStats {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 65%;
+  color: $dkGrey;
+  text-align: start;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.stat {
+  color: grey;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 100%;
+  h4 {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  h5 {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  #red {
+    color: rgb(236, 1, 1);
+  }
+  #green {
+    color: greenyellow;
+  }
+}
+#searchLeft {
+  padding: 2%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+#searchRight {
+  display: row;
+}

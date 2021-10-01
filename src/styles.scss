@@ -1,0 +1,129 @@
+@import '_search';
+@import '_company';
+@import '_variables';
+@import '_news';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
+  background-color: $grWhite;
+  font-family: Libre Baskerville;
+  color: $ltBlue;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.App-logo {
+  margin: 1%;
+  height: 5vh;
+  pointer-events: none;
+}
+
+.App-nav {
+  padding: 1%;
+  background-color: $ltBlue;
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: white;
+}
+
+.main-container {
+  margin: 1%;
+  display: flex;
+  width: 85%;
+  height: 85vh;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+#main-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+  width: 50%;
+  height: 60vh;
+  padding: 2%;
+  margin: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  box-shadow: -6px -2px 30px rgba(255, 255, 255, 0.15),
+    -6px -2px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px 10px 10px 10px;
+  background: white;
+}
+#main-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+  width: 50%;
+  height: 60vh;
+  padding: 2%;
+  margin: 2%;
+  box-shadow: -6px -2px 30px rgba(255, 255, 255, 0.15),
+    -6px -2px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px 10px 10px 10px;
+  background: white;
+  overflow: auto;
+}
+#main-outer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+input {
+  border-radius: 4px 4px 4px 4px;
+  font-family: Libre Baskerville;
+}
+
+.submitButton {
+  background: white;
+  border-radius: 5px 5px 5px 5px;
+  border-width: 0ch;
+  border-color: rgb(180, 180, 180);
+  font-family: Libre Baskerville;
+  font-size: 16px;
+  color: rgb(92, 92, 92);
+  margin: 2%;
+
+  box-shadow: -2px -6px 15px #fff, 2px 6px 15px rgba(0, 0, 0, 0.15);
+}
+.submitButton:hover {
+  transform: scale(1.1);
+  transition: all 0.4s;
+  box-shadow: -2px -6px 15px #fff, 2px 6px 15px rgba(0, 0, 0, 0.15);
+}
+.dropShadow {
+  padding-top: 0.3%;
+  height: 5vh;
+  width: 80vw;
+  box-shadow: -2px -6px 15px #fff, 2px 6px 15px rgba(0, 0, 0, 0.15);
+  color: rgb(46, 134, 105);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  color: rgb(92, 92, 92);
+}
